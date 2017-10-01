@@ -9,7 +9,30 @@
 			background filter:faded;
 		}
 		
+#header {
+	margin:0 1px;
+}
+#nav {
+	
+	padding:10px 20px;
+	text-align:right;
+	color:black;
+                  text-size:14pt;
+}
 
+#nav a {
+	margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#black;
+}
+
+#nav a:hover {
+	text-decoration:none;
+	color:#red;
+}
 
 #index{
       width: 100%;
